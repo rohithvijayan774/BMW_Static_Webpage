@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.background{
+    height: 760px;
+    width: 100%;
+    background: url("Medias/bmw_m340i.jpg") center center/cover;
+    box-shadow: inset 0 0 100px 5px black;
+    cursor: pointer;
+}
+.header-main{
+    display: flex;
+}
+
+.header{
+    width: 71%;
+    height: 100px;
+    margin-left: 175px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+.link1{
+    color: #fff;
+    height: 98px;
+    /* width: 100px; */
+    cursor: pointer;
+    background: transparent;
+    border: 5px solid transparent;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    padding:0 20px ;
+    
+}
+.link1:hover{
+    /* border: 5px; */
+    border-bottom: 5px solid rgb(51, 51, 252);
+}
+.link2{
+    /* height: 97px; */
+    width: 20px;
+    padding: 0 20px;
+    
+
+}
+.link2div{
+    height: 95px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.link1div{
+    display: flex;
+    align-items: center;
+}
+.link-2-maindiv{
+    /* height: 98px; */
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.link2div:hover{
+    border-bottom: 5px solid rgb(51, 51, 252);
+}
+
+.header-right{
+    width: 5%;
+    height: 100px;
+    margin-left: 0px;
+    /* border-bottom: 1px solid white; */
+    display: flex;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+}
+.header-logo{
+    padding-left: 20px;
+    
+}
+.para-1{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    padding-left: 1077px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+.para-2{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    color: #fff;
+    font-weight: lighter;
+    padding-left: 100px;
+    padding-top: 10px;
+    font-size: 52px;
+}
+.know-more-button{
+    margin-left: 102px;
+    margin-top: 20px;
+    width: 305px;
+    height: 50px;
+    background: #1c69d4;
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.know-more-button:hover{
+    background: #0653b6;
+}
+
+.footer{
+    margin-top: 5px;
+    width: 100%;
+    height: 75px;
+    background: #fff;
+    border-top: 2px rgb(206, 204, 204) solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    padding-bottom: 0%;
+    bottom: 0%;
+}
+
+.footer-div{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.footer-div2{
+    height: 71px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 170px;
+    /* margin: auto; */
+    font-size: small;
+    font-weight: bold;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    color: gray;
+
+}
+.footer-div2:hover{
+    border-top: 5px #1c69d4 solid;
+    background: rgb(242, 240, 240);
+}
+
+.footer-div3{
+    width: 20px;
+    /* padding: 0 76px; */
+    align-items: center;
+    margin: auto;
+    
+}
+.second{
+    background:rgb(76, 76, 76);
+    height: 500px;
+    width: 1519px;
+}
+.second-left{
+    height: 500px;
+    width: 50%;
+    background-color: #fff;
+    float: left;
+}
+.second-right{
+    height: 500px;
+    width: 50%;
+    background-color: #fff;
+    float: left;
+}
+.second-left-text{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    font-size: large;
+    margin-left: 100px;
+    margin-top: 35px;
+    font-weight: lighter;
+}
+.second-right-text{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    font-size: large;
+    margin-left: 10px;
+    margin-top: 35px;
+    font-weight: lighter;
+}
+.second-left-text2{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.second-left-text2:hover{
+    color: #0653b6;
+}
+.second-left-text3{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    font-size: large;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.second-left-text3:hover{
+    color: #0653b6;
+}
+.third{
+    background:#fff;
+    height: 1000px;
+    width: 1519px;
+    border-top: 1px solid #dbd8d8;
+}
+.third-left{
+    width: 50%;
+    height: 470px;
+    background: #fff;
+    float: left;
+}
+.image1{
+    padding-top: 70px;
+    padding-left: 125px;
+}
+.third-right{
+    width: 50%;
+    height: 470px;
+    background: #fff;
+    float: left;
+}
+.third-right-text1{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    padding-top: 65px;
+    padding-left: 20px;
+    font-size: 40px;
+}
+.third-right-text2{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.third-left-two{
+    width: 50%;
+    height: 500px;
+    background:#fff ;
+    margin-top: 0px;
+    float: left;
+}
+.third-right-two{
+    width: 50%;
+    height: 500px;
+    background:#fff ;
+    margin-top: 0px;
+    float: left;
+}
+.third-left-text1{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    padding-top: 65px;
+    font-size: 35px;
+    padding-left: 125px;
+}
+.third-left-text2{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    padding-top: 30px;
+    padding-left: 125px;
+    font-size: 18px;   
+}
+.third-right-image{
+    padding-top: 65px;
+    padding-left: 20px;
+}
+.main-footer{
+    width: 100%;
+    height: 192px;
+    background: rgb(242, 240, 240);
+    display: flex;
+    justify-content: center;
+}
+.main-footer-sub{
+    height: 190px;
+    width: 80%;
+    background: rgb(242, 240, 240);
+    border-bottom: 1px solid #8c8b8b;
+    display: flex;
+    justify-content: right;
+}
+.main-footer-text1{
+    margin-right: -170px;
+    margin-top: 50px;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    font-weight: lighter;
+    color: rgb(68, 66, 66);
+}
+.main-footer-icons{
+    padding-top: 100px;
+}
+.socialmedia-icons{
+    width: 45px;
+    padding-right: 25px;
+
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.socialmedia-icons:hover{
+    /* opacity: .5; */
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.main-footer-sub2-left{
+    width: 50%;
+    background: gray;
+}
+.main-footer2{
+    width: 100%;
+    height: 330px;
+    background: rgb(242, 240, 240);
+    display: flex;
+    justify-content: center;
+}
+.main-footer2-sub1{
+    width: 80%;
+    height: 330px;
+    background: #dbd8d8;
+}
+.main-footer2-sub2{
+    width: 25%;
+    height: 330px;
+    background: rgb(242, 240, 240);
+    float: left;
+    
+}
+.main-footer2-text1{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.main-footer2-links{
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    padding-left: 10px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: medium;
+    color: grey;
+    text-decoration: none;
+}
+.main-footer2-links:hover{
+    color: black;
+}
+.last-footer{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+.last-footer-sub{
+    width: 80%;
+    height: 80px;
+    background: #333131;
+}
+.last-footer-sub2{
+    width: 50%;
+    height: 80px;
+    background: #fff;
+    float: left;
+}
+.last-footer-sub3{
+    width: 50%;
+    height: 80px;
+    background: #fff;
+    float: left;
+    display: flex;
+    justify-content: end;
+}
+.last-footer-text1{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    padding-left: 10px;
+    font-weight: inherit;
+    float: left;
+}
+.last-footer-text2{
+    font-family: Verdana, Arial, Helvetica, sans-serif;    padding-top: 40px;
+    font-weight: bold;
+    font-size: medium;
+    color:#0653b6;
+    text-decoration: none;
+    padding-right: 25px;
+}
+.last-footer-text2:hover{
+    color: black;
+}
+.footer-extend{
+    width: 100%;
+    height: 20px;
+}
